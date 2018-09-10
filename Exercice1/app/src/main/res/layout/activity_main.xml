@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gris_fonce"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ImageView
+        android:id="@+id/movie_image"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@mipmap/intouchable"/>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_below="@id/movie_image"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="3">
+
+        <TextView
+            android:layout_below="@id/movie_image"
+            android:id="@+id/a_propos"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/a_propos"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="@color/doree"
+            android:padding="10dp"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="2">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Titre"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>
