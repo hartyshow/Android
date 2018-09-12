@@ -4,6 +4,9 @@
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
     <color name="doree">#f4b642</color>
+    <color name="doree_fonce">#ad7713</color>
     <color name="gris_fonce">#1d2128</color>
+    <color name="gris_moins_fonce">#2c323d</color>
     <color name="blanc">#FFFF</color>
+    <color name="gris_clair">#afaeae</color>
 </resources>
